@@ -1,6 +1,6 @@
 <?php
 
-namespace Nextpack\Nextpack\Exceptions;
+namespace Random\Random\Exceptions;
 
 use Exception as CoreException;
 

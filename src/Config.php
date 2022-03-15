@@ -1,9 +1,9 @@
 <?php
 
-namespace Nextpack\Nextpack;
+namespace Random\Random;
 
 use Illuminate\Config\Repository;
-use Nextpack\Nextpack\Exceptions\ConfigFileNotFoundException;
+use Random\Random\Exceptions\ConfigFileNotFoundException;
 
 /**
  * Class Config

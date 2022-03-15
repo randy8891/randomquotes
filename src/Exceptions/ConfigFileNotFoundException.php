@@ -1,5 +1,5 @@
 <?php
-namespace Nextpack\Nextpack\Exceptions;
+namespace Random\Random\Exceptions;
 
 /**
  * Class ConfigFileNotFoundException

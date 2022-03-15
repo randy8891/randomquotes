@@ -1,6 +1,6 @@
 <?php
 
-namespace Nextpack\Nextpack\Contracts;
+namespace Random\Random\Contracts;
 
 /**
  * Interface  SampleInterface

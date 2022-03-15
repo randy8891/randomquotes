@@ -1,6 +1,6 @@
 <?php
 
-namespace Nextpack\Nextpack;
+namespace Random\Random;
 
 /**
  * Class Sample
@@ -11,14 +11,14 @@ class Sample
 {
 
     /**
-     * @var  \Nextpack\Nextpack\Config
+     * @var  \Random\Random\Config
      */
     private $config;
 
     /**
      * Sample constructor.
      *
-     * @param \Nextpack\Nextpack\Config $config
+     * @param \Random\Random\Config $config
      */
     public function __construct(Config $config)
     {

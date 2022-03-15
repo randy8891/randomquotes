@@ -1,18 +1,18 @@
 <?php
 
-namespace Nextpack\Nextpack\ServiceProviders;
+namespace Random\Random\ServiceProviders;
 
 use Illuminate\Support\ServiceProvider;
-use Nextpack\Nextpack\Contracts\SampleInterface;
-use Nextpack\Nextpack\Facades\SampleFacadeAccessor;
-use Nextpack\Nextpack\Sample;
+use Random\Random\Contracts\SampleInterface;
+use Random\Random\Facades\SampleFacadeAccessor;
+use Random\Random\Sample;
 
 /**
  * Class NextpackServiceProvider
  *
  * @author  Mahmoud Zalt  <mahmoud@zalt.me>
  */
-class NextpackServiceProvider extends ServiceProvider
+class RandomQuotesServiceProvider extends ServiceProvider
 {
 
     /**
@@ -82,7 +82,7 @@ class NextpackServiceProvider extends ServiceProvider
     {
         // When users execute Laravel's vendor:publish command, the config file will be copied to the specified location
         $this->publishes([
-            __DIR__ . '/Config/nextpack.php' => config_path('nextpack.php'),
+            __DIR__ . '/Config/config.php' => config_path('config.php'),
         ]);
     }
 

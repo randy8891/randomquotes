@@ -1,17 +1,18 @@
 {
-  "name": "nextpack/nextpack",
-  "description": "Nextpack is a PHP Packages Framework (Starter Project)",
+  "name": "randy/randy",
+  "description": "Package for Random Quotes",
   "license": "MIT",
   "keywords": [
-    "NextPack",
-    "Starter"
+    "Random",
+    "Quotes",
+    "RandomQuotes"
   ],
   "authors": [
     {
-      "name": "Mahmoud Zalt",
-      "email": "mahmoud@zalt.me",
-      "homepage": "http://www.zalt.me",
-      "role": "Coffee Maker :)"
+      "name": "Randika Nonis",
+      "email": "randika.nonis@gmail.com",
+      "homepage": "https://www.linkedin.com/in/randikanonis/",
+      "role": "WIP"
     }
   ],
   "require": {

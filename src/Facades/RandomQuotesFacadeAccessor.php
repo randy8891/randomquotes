@@ -1,6 +1,6 @@
 <?php
 
-namespace Nextpack\Nextpack\Facades;
+namespace Random\Random\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Facade;
  *
  * @author  Mahmoud Zalt  <mahmoud@zalt.me>
  */
-class SampleFacadeAccessor extends Facade
+class RandomQuotesFacadeAccessor extends Facade
 {
 
     /**
@@ -19,6 +19,6 @@ class SampleFacadeAccessor extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'nextpack.sample';
+        return 'Random Quote';
     }
 }
